@@ -6,7 +6,11 @@ public class Main {
 		// TODO Auto-generated method stub
 		//for문 
     for(int i=1; i <= 15; i++) {
-    	System.out.print(i +" ?");
+//    	System.out.print(i +" ?");
+    	System.out.print(i);
+    	if(i<15) {
+    		System.out.print("?");
+    	}
     }
     System.out.println();
     //while
@@ -23,5 +27,4 @@ public class Main {
     } while(k < 16);
 		
 	}
-
 }
