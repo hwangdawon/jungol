@@ -9,8 +9,6 @@ public class Main {
 		Scanner num =new Scanner(System.in);
 		int ab = num.nextInt();
 		int cd = num.nextInt();
-		int inp =ab*cd;
-		
 		
 		
 		System.out.println(ab+ " * "+cd +" = "+(ab*cd));
