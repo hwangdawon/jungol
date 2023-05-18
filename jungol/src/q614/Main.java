@@ -13,7 +13,6 @@ import java.util.Scanner;
   }
 	
 
-
 }
 
 
@@ -30,8 +29,9 @@ public class Main {
 		sc.close();
 		
 		Student c1 = new Student("Jejuelementary",6);
-		System.out.println(c1.grade+" grade in "+c1.name+" School");
 		Student c2 =new Student(name,grade);
+		System.out.println(c1.grade+" grade in "+c1.name+" School");
+		
 	   	
 		System.out.println(c2.grade+" grade in "+ c2.name+" School");
 		
