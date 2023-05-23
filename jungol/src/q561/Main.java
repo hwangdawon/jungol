@@ -35,6 +35,7 @@ public class Main {
     	  max =100;
       }
          System.out.print(max+" ");
+         
          //2. 100이상의 수
           int min =10000;
 		for(int i=0;i<a.length;i++) {
